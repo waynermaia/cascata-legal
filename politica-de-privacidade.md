@@ -1,6 +1,6 @@
 # Política de Privacidade do Cascata
 
-**Versão:** 1.2 · **Última atualização:** 14 de novembro de 2026
+**Versão:** 1.3 · **Última atualização:** 18 de novembro de 2026
 
 ---
 
@@ -10,14 +10,15 @@
 - O **microfone** é usado só para reconhecer as notas, **no aparelho e na hora**. O som não é gravado nem enviado.
 - Enviamos **dados de uso** (por exemplo, "terminou uma lição") a um serviço de estatísticas, ligados a um código aleatório do app, **sem o seu nome, e-mail ou o que você digita, e sem deduzir a sua localização**. Você pode desligar isso em Ajustes.
 - O **professor por IA** e a **voz natural** funcionam **no próprio aparelho**: a conversa não sai do telefone.
+- Se você **importar uma música** por link ou por arquivo, o link ou o áudio vai ao servidor do Cascata para virar lição. O áudio é apagado assim que a lição fica pronta, e o resto em até 24 horas. A lição fica só no seu aparelho. Nada disso é usado para treinar IA.
 - Não vendemos seus dados e não usamos seus dados para publicidade.
 - Você pode pedir acesso, correção ou exclusão dos seus dados a qualquer momento.
 
 ## 2. Quem cuida dos seus dados
 
-**Controlador:** Wayner Maia, desenvolvedor pessoa física, Brasil.
+**Controlador:** WAYNER MAIA VITORINO, empresário individual, CNPJ 32.593.331/0001-79, Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brasil.
 
-**Encarregado pelo tratamento de dados pessoais:** Wayner Maia, pelo e-mail waynermaia@gmail.com.
+**Encarregado pelo tratamento de dados pessoais:** Wayner Maia, pelo e-mail contato@cascata.pro.
 
 ## 3. A quem esta política se aplica
 
@@ -32,8 +33,9 @@ Estes dados **não são enviados para nós**. Ficam guardados no app e somem qua
 | Dado | Para quê | Onde fica |
 |---|---|---|
 | Respostas do início (nome ou apelido para a saudação, experiência, objetivo, instrumento, tempo por dia, primeira música) | Personalizar a saudação e montar a sua trilha | No aparelho |
-| Progresso, sequência de dias, resultados das práticas, preferências | Mostrar seu avanço e continuar de onde parou | No aparelho |
-| Arquivos MIDI que você importa | Gerar lições a partir deles | No aparelho |
+| Progresso, ofensiva (dias seguidos de prática), resultados das práticas, preferências | Mostrar seu avanço e continuar de onde parou | No aparelho |
+| Arquivos MIDI e MusicXML que você importa | Gerar lições a partir deles | No aparelho |
+| Lições de músicas importadas por link ou arquivo (notas, título, capa) e a lista de importações em andamento | Praticar a música e acompanhar a importação | No aparelho, até você apagar a música |
 | Áudio do microfone | Reconhecer as notas tocadas, em tempo real | Só na memória, durante a prática. Não é gravado |
 | Notas do teclado MIDI (cabo ou Bluetooth) | Saber o que você tocou | Só na memória, durante a prática |
 | Conversa com o professor por IA e relatório da prática | Gerar a resposta do professor no aparelho | No aparelho |
@@ -57,12 +59,16 @@ Estes dados **não são enviados para nós**. Ficam guardados no app e somem qua
 | **Seu e-mail e o que você escrever** ao pedir suporte ou exclusão de conta | Atender o seu pedido e comprovar que atendemos | Execução de contrato; cumprimento de obrigação legal (art. 7º, II) | Caixa de suporte | 5 anos (prazo de prescrição do Código de Defesa do Consumidor) |
 | **Dados da assinatura**, se houver: status da assinatura, plano, datas, país da loja. **Não recebemos dados do cartão** | Liberar o conteúdo pago | Execução de contrato | Apple / Google | Enquanto a assinatura existir, mais o prazo legal fiscal |
 | **Download dos modelos do professor e da voz**, se você baixar | Trazer os arquivos para o aparelho | Execução de contrato | Hugging Face (EUA), que recebe o endereço IP, como em qualquer download | Conforme a política do Hugging Face |
+| **Música importada**, se você usar a função: o link que você colou ou o áudio do arquivo que escolheu (de um vídeo, só o som, extraído no aparelho), o título da música e o endereço IP da conexão | Obter o som, separar os instrumentos, escrever as notas e devolver a lição só para você | Execução de contrato (art. 7º, V) | Servidor do Cascata, **no Brasil**; as etapas de separar e transcrever, na Modal Labs (EUA), como operador | O áudio e as trilhas separadas são apagados assim que a lição fica pronta (ou o processamento falha). Os arquivos da lição e o registro do pedido (link ou nome do arquivo e título), em até 24 horas |
+| **Título e capa de uma música importada por link** | Mostrar a música na lista enquanto ela é importada | Execução de contrato | O app pede o título e a imagem de capa diretamente ao site de onde vem o link, que recebe o link e o endereço IP do aparelho | Conforme a política desse site |
 
 **O que não enviamos ao serviço de estatísticas:** o texto que você digita (nem no relato de problema, nem no professor por IA, nem no seu nome), seu nome, e-mail, telefone, a sua localização ou o áudio do microfone. Do relato de problema registramos só que ele foi enviado, a tela, o tamanho do texto e se tinha captura de tela.
 
 **Lembretes locais:** os lembretes de prática são agendados no próprio aparelho e não passam por nós.
 
-**Funções futuras:** se lançarmos funções que enviem dados para fora do aparelho (por exemplo, gerar lições a partir de áudio ou links), esta política será atualizada antes, dizendo o que é enviado, para onde e por quanto tempo.
+**Música importada e estatísticas:** o serviço de estatísticas recebe só que houve uma importação, de que tipo (link ou arquivo), se deu certo e o tamanho da lição. Nunca recebe o link, o título nem o áudio.
+
+**Funções futuras:** se lançarmos outras funções que enviem dados para fora do aparelho, esta política será atualizada antes, dizendo o que é enviado, para onde e por quanto tempo.
 
 ### 4.3 Não fazemos
 
@@ -70,7 +76,7 @@ Estes dados **não são enviados para nós**. Ficam guardados no app e somem qua
 - Não usamos dados para publicidade nem compartilhamos com redes de anúncios.
 - Não usamos o identificador de publicidade do aparelho nem rastreamos você em apps e sites de outras empresas.
 - Não tomamos decisões automatizadas que produzam efeitos jurídicos sobre você.
-- Não usamos suas conversas nem o conteúdo que você envia para treinar modelos de IA.
+- Não usamos suas conversas, o conteúdo que você envia nem as lições geradas para treinar modelos de IA, e não permitimos que o provedor de nuvem que processa a música importada faça isso.
 
 ## 5. Com quem compartilhamos
 
@@ -83,6 +89,7 @@ Usamos empresas que tratam dados **em nosso nome e seguindo nossas instruções*
 | Google (Cloud Firestore), só para quem entrou na conta | Guardar o progresso sincronizado entre aparelhos | Brasil (São Paulo) |
 | Apple e Google | Distribuição do app, pagamentos, notificações, login com Google | EUA e outros países |
 | Hugging Face | Hospeda os arquivos do professor e da voz que você baixa | EUA |
+| Modal Labs, Inc., só para quem importa músicas | Computação em nuvem: recebe o áudio da música importada e faz, em nosso nome, a separação dos instrumentos e a transcrição das notas. Usa o áudio só durante o processamento; não guardamos nada lá | EUA |
 
 Também podemos compartilhar dados quando a lei ou uma ordem de autoridade exigir, para defender nossos direitos em processo, ou em caso de venda ou reorganização do app (com a mesma proteção desta política).
 
@@ -98,7 +105,7 @@ O Cascata pode ser usado por crianças e adolescentes, **sempre com autorizaçã
 - Para **crianças (menores de 12 anos)**, o uso deve ser autorizado por pelo menos um dos pais ou responsável. Nos EUA, a regra vale para menores de 13 anos (COPPA). Na Europa, até a idade definida por cada país (13 a 16 anos).
 - O responsável pode desligar as estatísticas de uso em **Ajustes > Privacidade**. O professor e a voz no aparelho não enviam a conversa para fora do telefone.
 - Não fazemos publicidade nem perfilamento comercial de crianças e adolescentes.
-- O responsável pode, a qualquer momento, ver, corrigir ou pedir a exclusão dos dados da criança e retirar o consentimento, pelo e-mail waynermaia@gmail.com.
+- O responsável pode, a qualquer momento, ver, corrigir ou pedir a exclusão dos dados da criança e retirar o consentimento, pelo e-mail contato@cascata.pro.
 - Se percebermos que tratamos dados de uma criança sem a autorização necessária, apagaremos esses dados.
 
 ## 8. Seus direitos
@@ -124,8 +131,9 @@ Se você mora na Europa, tem também os direitos do GDPR (incluindo limitação 
 - **Desligar estatísticas:** Ajustes > Privacidade > Enviar dados de uso.
 - **Apagar o professor e a voz baixados:** Ajustes > Professor no aparelho > Apagar.
 - **Apagar dados do aparelho:** desinstale o app ou apague os dados dele nos ajustes do sistema.
+- **Apagar uma música importada:** apague a música no app. A cópia no servidor some sozinha em até 24 horas; se quiser antes, escreva para o e-mail abaixo.
 - **Excluir a conta e os dados fora do aparelho:** Ajustes > Excluir conta. Com login, a conta e o progresso sincronizado são apagados na hora, e o app abre também um e-mail pronto para nós.
-- **Qualquer outro pedido:** escreva para waynermaia@gmail.com.
+- **Qualquer outro pedido:** escreva para contato@cascata.pro.
 
 Podemos pedir informações para confirmar que o pedido é seu. Respondemos em até **15 dias**, ou no prazo menor que a lei do seu país exigir.
 
@@ -152,4 +160,4 @@ Podemos atualizar esta política. Se a mudança for relevante, avisaremos no app
 
 ## 13. Contato
 
-- **Controlador e encarregado:** Wayner Maia, waynermaia@gmail.com
+- **Controlador e encarregado:** Wayner Maia, contato@cascata.pro

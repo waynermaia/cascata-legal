@@ -2,15 +2,17 @@
 
 # Términos de Uso de Cascata
 
-**Versión:** 1.1 · **Última actualización:** 14 de noviembre de 2026
+**Versión:** 1.2 · **Última actualización:** 18 de noviembre de 2026
 
 ---
 
 ## 1. Quiénes somos
 
-Cascata es una aplicación para aprender piano, disponible para iPhone, iPad y Android. La desarrolla y ofrece **Wayner Maia**, desarrollador persona física, en Brasil.
+Cascata es una aplicación para aprender piano, disponible para iPhone, iPad y Android. La desarrolla y ofrece **WAYNER MAIA VITORINO**, empresario individual inscrito en el CNPJ 32.593.331/0001-79, en Brasil.
 
-- Correo de contacto, soporte, privacidad y derechos de autor: **waynermaia@gmail.com**
+- Correo de soporte y privacidad: **contato@cascata.pro**
+- Correo para derechos de autor (sección 9): **contato@cascata.pro**
+- Identificación y dirección: **WAYNER MAIA VITORINO, CNPJ 32.593.331/0001-79** · **Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brasil**
 
 En este texto, "nosotros" y "Cascata" se refieren al desarrollador de la app. "Tú" eres la persona que usa la app.
 
@@ -73,7 +75,7 @@ Como el pago lo procesa la tienda, la solicitud de reembolso normalmente se hace
 - **Apple:** reportaproblem.apple.com
 - **Google Play:** desde la página de pedidos de tu cuenta de Google o desde el centro de ayuda de Google Play.
 
-Si la tienda rechaza una solicitud hecha dentro de ese plazo, escribe a **waynermaia@gmail.com** y te ayudaremos a resolverlo.
+Si la tienda rechaza una solicitud hecha dentro de ese plazo, escribe a **contato@cascata.pro** y te ayudaremos a resolverlo.
 
 Fuera de ese caso, los reembolsos siguen las políticas de la tienda y la ley de tu país.
 
@@ -101,90 +103,120 @@ Aceptas no:
 
 ### 8.1 Qué es
 
-La app te permite traer tu propio contenido para generar lecciones, como archivos MIDI y, cuando esas funciones se lancen, grabaciones de audio y enlaces a canciones o videos, incluso de plataformas de terceros.
+La app te permite traer tu propio contenido para generar lecciones:
 
-A esto lo llamamos "Tu Contenido".
+- **archivos MIDI y MusicXML**, que se leen y se convierten en lección **en el propio dispositivo**;
+- **música importada**: pegas el enlace de una página donde está la música o eliges un archivo de audio o de video de tu dispositivo. La app envía el enlace o el audio al servidor de Cascata, que obtiene el sonido, separa los instrumentos y escribe las notas con ayuda de inteligencia artificial. La lección lista vuelve **solo a ti** y se guarda en tu dispositivo. De un video, la app envía solo el sonido.
 
-### 8.2 No verificamos derechos de autor
+Llamamos a todo esto "Tu Contenido", y a la lección generada a partir de él, "Lección Importada".
 
-Cascata **no verifica** si tienes derecho a usar Tu Contenido. No sabemos de dónde vino ni si tienes licencia para usarlo.
+### 8.2 Cómo se procesa la música importada y cuánto tiempo se guarda
 
-### 8.3 Lo que declaras
+- El procesamiento se hace en los **servidores de Cascata**. Las etapas más pesadas (separar los instrumentos y escribir las notas) pueden hacerlas un **proveedor de computación en la nube que procesa el audio en nuestro nombre**, siguiendo nuestras instrucciones, y que no puede usarlo para otros fines. Quién es ese proveedor y dónde está se indica en la Política de Privacidad.
+- El audio y las pistas separadas se **borran en cuanto la lección está lista** (o en cuanto el procesamiento falla).
+- Los archivos de la lección y el registro de la solicitud (el enlace o el nombre del archivo y el título) quedan en el servidor **hasta 24 horas** después de terminar el procesamiento, para que la app pueda recogerlos aunque la cierres a mitad de camino. Después se borran.
+- Cuando la lección llega a tu dispositivo, queda solo en él. Para borrarla, borra la canción en la app.
+- **No usamos Tu Contenido ni las Lecciones Importadas para entrenar modelos de inteligencia artificial**, ni permitimos que el proveedor en la nube lo haga.
+
+### 8.3 No verificamos derechos de autor
+
+Cascata **no verifica** si tienes derecho a usar Tu Contenido. No sabemos de dónde viene ni si tienes licencia para él. La transcripción la hace una computadora, a tu pedido, y puede contener errores.
+
+### 8.4 Lo que declaras
 
 Al importar o enviar cualquier contenido, declaras y garantizas que:
 
-1. eres el autor o titular de los derechos sobre él, **o** tienes autorización del titular, **o** el uso está permitido por la ley (por ejemplo, una obra de dominio público o un uso permitido por la ley de derechos de autor de tu país);
-2. lo usarás **solo con fines personales, privados y de estudio**, sin distribuir, publicar ni explotar comercialmente las lecciones generadas;
-3. el envío del contenido y su procesamiento por la app no violan derechos de terceros, contratos ni los términos de otras plataformas de las que provenga el contenido.
+1. solo importas música que **tienes derecho a usar de esta forma**: porque eres el autor o titular de los derechos, porque tienes autorización del titular, porque la obra y la grabación están en **dominio público** o porque el uso está permitido por la ley de derechos de autor de tu país (en Brasil, la Ley 9.610/1998);
+2. el envío del contenido y su procesamiento por la app no violan derechos de terceros, contratos ni los términos de la página o del servicio de donde viene el contenido;
+3. no usarás la función para obtener copias de música que no podrías obtener de otro modo.
 
-### 8.4 Eres el único responsable
+### 8.5 Cómo puedes usar la Lección Importada
 
-Eres el único responsable de Tu Contenido y del uso que haces de él. Si un tercero presenta un reclamo contra nosotros a causa de Tu Contenido, te comprometes a ayudarnos en la defensa y a resarcirnos de los perjuicios causados por tu incumplimiento de estos Términos, dentro de los límites de la ley.
+- La Lección Importada es **solo para tu estudio, de forma personal y no comercial**, dentro de la app.
+- Si la música importada es una obra protegida por derechos de autor, **no puedes redistribuir la lección**: no puedes publicarla, venderla, enviarla a otras personas ni exportar sus notas, su partitura o su archivo, ni usarla en clases pagadas, presentaciones u otros fines comerciales.
+- La Lección Importada **no te da ningún derecho** sobre la música original, sobre la grabación ni sobre la transcripción.
+- Si publicas un video tuyo tocando una canción importada, la responsabilidad por los derechos sobre la obra y sobre la grabación es **tuya**. Revisa las reglas de la plataforma donde lo publiques.
 
-### 8.5 Licencia que nos das
+### 8.6 Eres el único responsable
 
-Sigues siendo dueño de Tu Contenido. Para que la app funcione, nos das una licencia **gratuita, mundial, no exclusiva y limitada** para almacenar, copiar, convertir y analizar Tu Contenido **solo para generar y mostrarte las lecciones** y para mantener el servicio en funcionamiento (por ejemplo, copias de seguridad y corrección de errores).
+Eres el único responsable de Tu Contenido y del uso que haces de él y de las Lecciones Importadas. Si un tercero presenta un reclamo contra nosotros por Tu Contenido o por el uso que hiciste de una Lección Importada, te comprometes a ayudarnos en la defensa y a resarcirnos los perjuicios causados por tu incumplimiento de estos Términos, en los límites de la ley.
+
+Respetados los derechos que la ley garantiza al consumidor, Cascata **no responde** por Tu Contenido, por lo que eliges importar ni por el uso que haces de las lecciones, y no garantiza que la transcripción sea fiel a la música original.
+
+### 8.7 Licencia que nos das
+
+Conservas los derechos que ya tenías sobre Tu Contenido. Para que la app funcione, nos das una licencia **gratuita, mundial, no exclusiva y limitada** para obtener, almacenar temporalmente, copiar, convertir y analizar Tu Contenido **solo para generar la lección y entregártela** y para mantener el servicio funcionando (por ejemplo, corregir errores).
 
 Esta licencia:
 
-- **no** nos permite publicar, vender ni mostrar Tu Contenido a otras personas;
+- **no** nos permite publicar, vender ni mostrar Tu Contenido ni tus Lecciones Importadas a otras personas;
 - **no** nos permite usar Tu Contenido para entrenar modelos de inteligencia artificial;
-- termina cuando borras el contenido o la cuenta, salvo las copias que debamos conservar por obligación legal o que estén en copias de seguridad hasta que se sobrescriban.
+- termina cuando el contenido se borra de nuestros servidores, en los plazos de la sección 8.2, salvo lo que debamos guardar por obligación legal.
 
-Los archivos procesados solo en tu dispositivo (como los archivos MIDI que se importan hoy) no se nos envían.
+Los archivos MIDI y MusicXML que importas se procesan en el dispositivo y no se nos envían.
 
-### 8.6 Contenido de otras plataformas
+### 8.8 Contenido de otras páginas y servicios
 
-Si el contenido proviene de otra plataforma (por ejemplo, un enlace de video), también debes respetar los términos de esa plataforma. Sus términos siguen aplicándose a ti, y nada de lo aquí dispuesto los excluye.
+Si el enlace que pegas lleva a otra página o servicio, los términos de ese servicio siguen vigentes para ti, y nada de lo dicho aquí los deja sin efecto.
 
-### 8.7 Retiro de contenido
+### 8.9 Retiro de contenido
 
-Podemos eliminar o bloquear cualquier contenido que, a nuestro criterio razonable, parezca violar derechos de terceros, estos Términos o la ley, incluso después de una notificación (consulta la sección 9).
+Podemos rechazar una solicitud de importación, o eliminar o bloquear cualquier contenido que, a nuestro criterio razonable, parezca violar derechos de terceros, estos Términos o la ley, incluso después de una notificación (consulta la sección 9).
 
 ## 9. Notificación de infracción de derechos de autor
 
-Respetamos los derechos de los autores y titulares. Si crees que algún contenido en Cascata viola tus derechos, sigue el procedimiento de abajo.
+Respetamos los derechos de autores, intérpretes, productores y editoras. Si eres titular de derechos (o actúas en su nombre) y crees que Cascata se usó para violarlos, sigue el procedimiento de abajo.
 
-### 9.1 Contacto
+### 9.1 Base legal y contacto
 
-- **Correo:** waynermaia@gmail.com, con el asunto "Derechos de autor".
+- Seguimos la **Ley de Derechos de Autor de Brasil (Ley 9.610/1998)**. El Marco Civil de Internet de Brasil (Ley 12.965/2014), en su art. 19, trata de la responsabilidad de los proveedores, pero el § 2 de ese artículo y el art. 31 dejan los derechos de autor a una ley específica. Por eso **no esperamos una orden judicial**: actuamos a partir de una notificación como la descrita abajo.
+- Para titulares en los Estados Unidos, este procedimiento equivale al de notificación y contranotificación de la **Digital Millennium Copyright Act (DMCA, 17 U.S.C. § 512)**.
+- **Correo:** contato@cascata.pro, con el asunto "Derechos de autor".
+- **Dirección para notificaciones por escrito:** Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brasil
 
 ### 9.2 Qué debe contener la notificación
 
 1. tu nombre completo, dirección, teléfono y correo;
-2. la identificación de la obra protegida (o una lista de obras);
-3. la identificación del contenido que consideras infractor, con información suficiente para que podamos localizarlo;
-4. una declaración de que crees, de buena fe, que el uso no fue autorizado por el titular, por su representante ni por la ley;
-5. una declaración de que la información es verdadera y de que eres el titular o estás autorizado a actuar en su nombre (para notificaciones bajo la ley de EE. UU., "bajo pena de perjurio");
+2. identificación de la obra protegida (o lista de obras) y de su titular;
+3. identificación del contenido que consideras infractor, con información suficiente para que podamos localizarlo (por ejemplo, el enlace que se importó);
+4. declaración de que crees, de buena fe, que el uso no fue autorizado por el titular, por su representante o por la ley;
+5. declaración de que la información es verdadera y de que eres el titular o estás autorizado a actuar en su nombre (para notificaciones bajo la ley de EE. UU., "bajo pena de perjurio");
 6. tu firma, física o electrónica.
 
 ### 9.3 Qué hacemos
 
-Al recibir una notificación completa, actuaremos con rapidez para eliminar o bloquear el acceso al contenido y avisar a la persona que lo envió, mandándole una copia o un resumen de la notificación.
+Al recibir una notificación completa, con rapidez:
+
+1. borraremos de nuestros servidores cualquier copia del contenido señalado que aún esté allí;
+2. cuando sea técnicamente posible, impediremos nuevas importaciones del mismo contenido;
+3. avisaremos a la persona que hizo la importación, cuando podamos identificarla, con una copia o un resumen de la notificación;
+4. responderemos a quien notificó, diciendo lo que se hizo.
+
+Las Lecciones Importadas se guardan en el dispositivo de cada persona, fuera de nuestro alcance. No podemos borrarlas a distancia, pero quien reciba el aviso del punto 3 debe borrarlas.
 
 ### 9.4 Contranotificación
 
-Si tu contenido fue eliminado y crees que fue un error o que tienes derecho a usarlo, puedes enviar una contranotificación al mismo contacto, con:
+Si tu contenido fue eliminado o bloqueado y crees que fue un error o que tienes derecho a usarlo, puedes enviar una contranotificación al mismo contacto, con:
 
 1. tu nombre completo, dirección, teléfono y correo;
-2. la identificación del contenido eliminado y de dónde estaba antes;
-3. una declaración de que crees, de buena fe, que el contenido se eliminó por error o por una identificación incorrecta (para la ley de EE. UU., "bajo pena de perjurio");
-4. para la ley de EE. UU.: una declaración de que aceptas la jurisdicción del tribunal federal de tu distrito (o, si estás fuera de EE. UU., de cualquier distrito donde se nos pueda encontrar) y de que aceptarás la notificación judicial de quien hizo la notificación;
+2. identificación del contenido eliminado o bloqueado;
+3. declaración de que crees, de buena fe, que el contenido se eliminó por error o identificación incorrecta (para la ley de EE. UU., "bajo pena de perjurio");
+4. para la ley de EE. UU.: declaración de que aceptas la jurisdicción del tribunal federal de tu distrito (o, si estás fuera de EE. UU., de cualquier distrito donde podamos ser encontrados) y de que aceptarás la notificación judicial de quien hizo la notificación;
 5. tu firma, física o electrónica.
 
-Enviaremos la contranotificación a quien hizo la notificación. Si esa persona no nos informa, en un plazo de 10 a 14 días hábiles, que inició una acción judicial, podremos restaurar el contenido.
+Enviaremos la contranotificación a quien hizo la notificación. Si esa persona no nos informa, en un plazo de 10 a 14 días hábiles, que inició una acción judicial, podremos volver a habilitar el contenido.
 
 ### 9.5 Notificaciones falsas
 
-Quien hace una notificación o contranotificación sabiendo que es falsa puede responder por los daños que cause.
+Quien envíe una notificación o contranotificación sabiendo que es falsa puede responder por los daños que cause.
 
 ### 9.6 Infracciones reiteradas
 
-**Suspenderemos o cerraremos** la cuenta de quien viole derechos de autor de forma reiterada, por ejemplo con tres notificaciones válidas y no impugnadas con éxito en 12 meses. También podemos suspenderla antes en casos graves.
+Vamos a **suspender o cerrar** el acceso a la importación de música, y la cuenta cuando exista, de quien viole derechos de autor de forma reiterada, por ejemplo con tres notificaciones válidas y no impugnadas con éxito en 12 meses. También podemos suspender antes en casos graves.
 
 ## 10. Nuestra propiedad intelectual
 
-La app, su marca, su nombre, su diseño, sus textos, íconos, sonidos, código y las lecciones creadas por nosotros pertenecen a Wayner Maia o a nuestros licenciantes y están protegidos por la ley. Estos Términos no te transfieren ninguno de esos derechos, solo la licencia de uso de la sección 6.
+La app, su marca, su nombre, su diseño, sus textos, íconos, sonidos, código y las lecciones creadas por nosotros pertenecen a WAYNER MAIA VITORINO o a nuestros licenciantes y están protegidos por la ley. Estos Términos no te transfieren ninguno de esos derechos, solo la licencia de uso de la sección 6.
 
 ### 10.1 Canciones del catálogo
 
@@ -213,7 +245,7 @@ La app ofrece un "profesor" basado en inteligencia artificial, que conversa cont
 
 Trabajamos para mantener la app en funcionamiento, pero puede tener fallas, quedar fuera de servicio o cambiar. Podemos agregar, cambiar o quitar funciones y contenidos. Si un cambio quita algo esencial de lo que contrataste, te avisaremos antes y podrás cancelar, con reembolso proporcional cuando la ley lo exija.
 
-Algunas funciones dependen de servicios de terceros (tiendas, proveedor de inicio de sesión, Hugging Face para las descargas). No controlamos esos servicios.
+Algunas funciones dependen de servicios de terceros (tiendas, proveedor de inicio de sesión, Hugging Face para las descargas, proveedor en la nube que procesa la música importada). No controlamos esos servicios.
 
 ## 14. Limitación de responsabilidad
 
@@ -231,7 +263,7 @@ Puedes dejar de usar la app y eliminar la cuenta cuando quieras.
 
 Podemos suspender o cerrar tu acceso si violas estos Términos de forma grave o repetida, si la ley lo exige o si hay riesgo para otras personas o para el servicio. Cuando sea posible, te avisaremos antes y te explicaremos el motivo. Si el cierre no es por tu culpa, te devolveremos el monto proporcional al período pagado y no usado.
 
-Las secciones que, por su naturaleza, deben seguir vigentes después del cierre (como 8.4, 10, 14 y 17) siguen vigentes.
+Las secciones que, por su naturaleza, deben seguir vigentes después del cierre (como 8.4 a 8.6, 10, 14 y 17) siguen vigentes.
 
 ## 16. Cambios en estos Términos
 
@@ -242,10 +274,10 @@ Podemos actualizar estos Términos. Si el cambio es relevante, te avisaremos en 
 Estos Términos se rigen por las leyes de Brasil.
 
 - **Si eres consumidor en Brasil**, puedes presentar una acción en el fuero de tu domicilio.
-- En los demás casos, se elige el fuero del domicilio del desarrollador, en Brasil.
+- En los demás casos, se elige el fuero de **Uberlândia/MG**, en Brasil.
 - **Si vives fuera de Brasil**, siguen aplicándose las leyes de protección al consumidor de tu país que no puedan excluirse por contrato.
 
-Antes de acudir a la Justicia, te invitamos a hablar con nosotros en **waynermaia@gmail.com**. También puedes usar la plataforma pública consumidor.gov.br.
+Antes de acudir a la Justicia, te invitamos a hablar con nosotros en **contato@cascata.pro**. También puedes usar la plataforma pública consumidor.gov.br.
 
 ## 18. Disposiciones generales
 
@@ -257,4 +289,5 @@ Antes de acudir a la Justicia, te invitamos a hablar con nosotros en **waynermai
 
 ## 19. Contacto
 
-- **Soporte, privacidad y derechos de autor:** waynermaia@gmail.com
+- **Soporte y privacidad:** contato@cascata.pro
+- **Derechos de autor:** contato@cascata.pro

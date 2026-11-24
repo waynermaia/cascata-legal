@@ -1,163 +1,306 @@
 # Cascata Privacy Policy
 
-**Version:** 1.3 · **Last updated:** November 18, 2026
+**Version:** 2.0 · **Last updated:** November 24, 2026
+
+This policy explains what personal data the Cascata app handles, where it comes from, what it is for, who it is shared with, how long it is kept and how you exercise your rights. It applies together with the Cascata Terms of Use.
+
+Giving data is always your choice. Some features, however, do not work without it: for example, without signing in there is no way to take your progress to another device.
 
 ---
 
-## 1. Summary
+## Summary
 
-- Your profile and progress stay **on your device**. If you sign in with Google, they are also kept in your account so they reach your other devices.
-- The **microphone** is used only to recognise notes, **on the device and in real time**. Sound is not recorded or sent.
-- We send **usage data** (for example, "finished a lesson") to an analytics service, linked to a random app code, **without your name, e-mail or anything you type, and without inferring your location**. You can turn this off in Settings.
-- The **AI teacher** and the **natural voice** run **on your device**: the conversation does not leave the phone.
-- If you **import a song** by link or file, the link or the audio goes to the Cascata server to become a lesson. The audio is deleted as soon as the lesson is ready, and the rest within 24 hours. The lesson stays only on your device. None of it is used to train AI.
-- We do not sell your data and do not use it for advertising.
-- You can ask to access, correct or delete your data at any time.
+- Profiles and progress stay **on your device**. If you sign in with Google, they are also kept in your account so they reach your other devices.
+- The **microphone** is used to recognise notes, **on the device and in real time**. Practice sound is not recorded or sent. The exceptions are things you ask for yourself: recording a video, sending spoken feedback about a lesson or importing a recording.
+- We send **usage statistics** tied to a random install code, **without your name, e-mail, age, typed text or location**. You can turn this off in Settings.
+- The **teacher** and the **natural voice** run **on the device itself**. The conversation only leaves the phone if you turn on, in the Lab, the teacher through the API with your own Anthropic key.
+- **Children** use the app through a profile created by a responsible adult.
+- **We do not sell** data, **we do not advertise**, we do not use the device's advertising identifier and we do not use your data to train artificial intelligence.
+- You can ask for access to, correction of, a copy of or deletion of your data at any time.
 
-## 2. Who is responsible for your data
+---
 
-**Controller:** WAYNER MAIA VITORINO, sole proprietor, CNPJ 32.593.331/0001-79, Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brazil.
+## 1. Who looks after your data
 
-**Data protection contact (encarregado):** Wayner Maia, at contato@cascata.pro.
+**Controller:** WAYNER MAIA VITORINO, sole proprietorship (empresário individual), CNPJ 32.593.331/0001-79, Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brazil. In this policy, "we" and "Cascata" mean him.
 
-## 3. Who this policy applies to
+**Data protection officer (encarregado, DPO):** Wayner Maia, at **contato@cascata.pro** or at the address above.
 
-Everyone who uses the Cascata app on iPhone, iPad or Android, in Brazil or elsewhere, and parents or guardians of children and teenagers who use it. It follows Brazil's General Data Protection Law (LGPD, Law 13,709/2018) and is designed to meet, in essence, the GDPR (Europe) and US privacy laws such as the CCPA/CPRA (California) and COPPA (children).
+This policy applies to everyone who uses the Cascata app on iPhone, iPad or Android, in any country, to the parents and guardians of children and teenagers who use the app, and to anyone who writes to us by e-mail. It does not cover other companies' websites and services that you open from the app; those have their own policies.
 
-## 4. What data we process, why and for how long
+We follow Brazil's General Data Protection Law (LGPD, Law 13,709/2018). The policy also covers what the GDPR (Europe and the UK), US state privacy laws and COPPA (children in the US) ask for. See sections 11 and 12.
 
-### 4.1 Data that stays on your device
+---
 
-This data is **not sent to us**. It is stored in the app and removed when you delete the app (or clear its data).
+## 2. What data we handle and why
 
-| Data | Purpose | Where |
-|---|---|---|
-| Onboarding answers (name or nickname for the greeting, experience, goal, instrument, daily time, first song) | Personalise the greeting and build your path | On the device |
-| Progress, streak, practice results, preferences | Show your progress and resume where you left off | On the device |
-| MIDI and MusicXML files you import | Create lessons from them | On the device |
-| Lessons from songs imported by link or file (notes, title, cover) and the list of imports in progress | Practise the song and follow the import | On the device, until you delete the song |
-| Microphone audio | Recognise the notes played, in real time | Only in memory during practice. Not recorded |
-| MIDI keyboard notes (cable or Bluetooth) | Know what you played | Only in memory during practice |
-| Conversation with the AI teacher and practice report | Generate the teacher's answer on the device | On the device |
-| Teacher and voice models, if you download them | Let the teacher and voice work offline | On the device, excluded from backups |
-| Recent usage event history (up to 300) | Attach to a problem report, if you choose | On the device |
+The data is grouped by what you do in the app. For each group we say what it is, where it comes from, what it is for, its legal basis under the LGPD and where it is kept. Retention periods are summarised in section 7.
 
-**System backups:** on iPhone, iCloud may include app data in backups you enabled on your device; those backups are made by Apple under your account and its rules. On Android, app data is excluded from Google backup.
+Some features exist only in certain versions of the app, or sit under **Settings > Lab** while they are being tested. They are described here anyway, and the description applies whenever the feature is available to you.
 
-### 4.2 Data we process off the device
+### 2.1 Family profiles and first answers
 
-| Data | Purpose | Legal basis (LGPD) | Where | How long |
-|---|---|---|---|---|
-| **Usage events**: what you do in the app (e.g. opened the app, started or finished a practice, unlocked a step, changed language), with practice details (song, accuracy, tempo) | Understand how the app is used, fix problems, improve lessons | Legitimate interest (art. 7, IX). For children, see section 7 | PostHog, US | 12 months |
-| **Install ID** (random code created by the app, not the advertising ID) | Count installs and link events from the same device | Legitimate interest | PostHog | Same as events |
-| **Technical data**: app version, OS and version, language, A/B test group | Fix bugs and compare app versions | Legitimate interest | PostHog | Same as events |
-| **IP address** (received automatically on connection) | Deliver the data. The app asks PostHog **not to infer location** from the IP | Legitimate interest | PostHog | Not stored as a location |
-| **Account**, if you sign in with Google: account ID, name, e-mail and photo of your Google account | Create and keep your account and sync progress | Performance of contract (art. 7, V) | Firebase Authentication (Google, US) | While the account exists, plus up to 30 days after deletion |
-| **Synced progress**, only if you sign in: for each profile of the account, the profile name, onboarding answers, path steps (stars, attempts, when mastered), songs played (accuracy, stars, plays), recent sessions, saved songs and loops, XP, practice time per day, daily goal and settings (voice, metronome, sheet music, effects, reminder). It does not include audio, recordings, keys or the conversation with the teacher | Bring your progress to the other devices where you sign in to the same account | Performance of contract (art. 7, V) | Cloud Firestore (Google), in São Paulo, Brazil | While the account exists. Deleting the account in the app erases it at once |
-| **Link between account and usage events**, if you sign in | See the same person's use across devices | Legitimate interest | PostHog | Same as events |
-| **Problem report**: your text, screenshot (if attached), app version, device, OS, language, screen, install ID and recent events | Answer and fix the problem | Legitimate interest and performance of contract | Arrives through the e-mail or messaging app you choose, in our support inbox | 2 years after resolution |
-| **Your e-mail and message** when you ask for support or account deletion | Handle your request and prove we did | Performance of contract; legal obligation (art. 7, II) | Support inbox | 5 years (limitation period under the Brazilian Consumer Protection Code) |
-| **Subscription data**, if any: status, plan, dates, store country. **We do not receive card details** | Unlock paid content | Performance of contract | Apple / Google | While the subscription exists, plus the legal tax period |
-| **Download of the teacher and voice models**, if you download them | Bring the files to the device | Performance of contract | Hugging Face (US), which receives the IP address, as with any download | Per Hugging Face's policy |
-| **Imported music**, if you use the feature: the link you pasted or the audio of the file you picked (from a video, only the sound, extracted on the device), the song title and the connection's IP address | Get the sound, separate the instruments, write down the notes and return the lesson only to you | Performance of contract (art. 7, V) | Cascata server, **in Brazil**; the separation and transcription steps at Modal Labs (US), as processor | The audio and separated tracks are deleted as soon as the lesson is ready (or processing fails). The lesson files and the request record (link or file name, and title), within 24 hours |
-| **Title and cover of a song imported by link** | Show the song in the list while it is imported | Performance of contract | The app asks the site the link comes from directly for the title and cover image; that site receives the link and the device's IP address | Per that site's policy |
+- **What data:** each person who plays has a profile (up to six on the same device, under **Settings > Family**). The profile holds a name or nickname (it can be made up), age, avatar and the first answers: piano experience, goal, motivation, instrument, time per day, days per week, sheet-music reading, first song, reminder time and how you heard about Cascata.
+- **Where it comes from:** you type or choose it.
+- **What for:** greeting the person by name, building the path and the study pace, keeping each person's progress apart and suiting the lessons to the age of who plays.
+- **Legal basis:** performance of a contract (art. 7, V). For children, see section 10.
+- **Where it is kept:** on the device. It only leaves the device if you sign in (section 2.3).
 
-**What we do not send to analytics:** anything you type (not in problem reports, not to the AI teacher, not your name), your name, e-mail, phone number, your location or microphone audio. From a problem report we record only that it was sent, the screen, the text length and whether it had a screenshot.
+### 2.2 Progress, practice and settings
 
-**Local reminders:** practice reminders are scheduled on the device and do not go through us.
+- **What data:** path steps (stars, attempts, when mastered), songs played (accuracy, stars, number of times), recent sessions, days in a row of practice, XP, time practised per day, daily goal, challenges, saved songs, looped passages, calibrations and settings. Also the MIDI and MusicXML files you import, the lessons of imported songs, the videos you record and a recent history of usage events (up to 300 on iPhone and 50 on Android).
+- **Where it comes from:** your use of the app.
+- **What for:** showing your progress, picking up where you left off and fitting the path to what you already know.
+- **Legal basis:** performance of a contract.
+- **Where it is kept:** on the device, until you delete the profile, clear the app's data or uninstall it. It leaves the device only through the routes in sections 2.3 to 2.10.
 
-**Imported music and statistics:** the statistics service only receives that an import happened, of which kind (link or file), whether it worked and the size of the lesson. It never receives the link, the title or the audio.
+### 2.3 Account and sync (optional)
 
-**Future features:** if we release other features that send data off the device, we will update this policy first, saying what is sent, where and for how long.
+- **Account data:** if you sign in with Google, we receive from Google the account identifier, name, e-mail and the address of the account photo. Today Google is the only way to sign in.
+- **Synced data:** one document per account with the profiles (name, age, avatar and first answers), each profile's progress and settings (section 2.2, without the files), XP, time practised, goals and challenges. Progress stores each song's identifier; for an imported MIDI or MusicXML file, that identifier contains the file name. We do not sync audio, videos, music files, keys, the conversation with the teacher, or the name and e-mail of the Google account.
+- **Where it comes from:** from Google, at sign-in, and from your use of the app.
+- **What for:** creating and keeping the account, and taking your progress to the other devices you sign in on.
+- **Legal basis:** performance of a contract.
+- **Where it is kept:** the account in Firebase Authentication (Google, USA); the synced document in Cloud Firestore (Google), in São Paulo, Brazil. On the device, the access tokens are kept in the Keychain (iPhone) or encrypted by the Android Keystore (Android). The account photo is loaded straight from Google's servers.
+- **For how long:** while the account exists. When you delete the account in the app, the account and the synced document are erased at once.
 
-### 4.3 What we do not do
+### 2.4 Usage statistics and identifiers
+
+- **What data:**
+  - **usage events:** what you do in the app, such as opening the app, viewing a screen, starting or finishing a practice (with the song, hands, tempo, mode, accuracy, stars, duration and wrong notes), moving along the path, changing a setting or the language, completing a challenge, sharing a result, importing a song (only the kind and whether it worked) and subscribing (which plan). Of profiles, only the number of profiles created, switched or deleted;
+  - **install identifier:** a random code the app creates the first time it opens. It is not the device's advertising identifier;
+  - **technical data:** app version, operating system and version, language, A/B test groups, features turned on and short technical messages when sync fails;
+  - **link to the account:** if you sign in, the account identifier is linked to the install identifier;
+  - **IP address:** it arrives with the connection. The app asks the statistics service **not to infer your location** from it.
+- **What we do not send:** profile name, age, e-mail, phone number, the text you type, the conversation with the teacher, links, titles of songs imported by link, audio and location. One caveat: the identifier of a MIDI or MusicXML file you imported contains the file name and may appear in some events.
+- **What for:** understanding how the app is used, finding and fixing faults, comparing versions and improving the lessons.
+- **Legal basis:** legitimate interest (art. 7, IX), with the option to turn it off. For children, see section 10.
+- **Where it is kept:** PostHog, in the USA, for 12 months.
+- **How to turn it off:** **Settings > Privacy > Send usage data**. Sending is on by default and, once you turn it off, the app stops sending. The recent history stays only on the device, so you can attach it to a problem report.
+
+### 2.5 Microphone, MIDI keyboard, camera and videos
+
+- **Microphone:** the app listens to the piano to recognise the notes **on the device and in real time**. Practice sound stays only in memory and is not recorded or sent. The microphone only records when you ask: in a video (below), in spoken feedback (section 2.6) or in a recording you choose to import (section 2.7).
+- **MIDI keyboard:** by cable or Bluetooth, the app reads the notes you play. They do not leave the device. On Android, the search for Bluetooth keyboards is not used to locate you.
+- **Camera and screen:** if you record a video of yourself playing, the app uses the camera, the screen and the microphone. The video stays on the device and only leaves it if you share it or save it to your gallery.
+- **Legal basis:** performance of a contract. Permissions are requested by the operating system and you can withdraw them at any time in the device settings.
+
+### 2.6 Spoken feedback about a lesson (in some versions)
+
+This feature only appears in versions of the app connected to Cascata's lesson server and may not exist in the version you downloaded from the store.
+
+- **What data:** a recording of your voice, up to 5 minutes long, which only starts when you tap the microphone and is only sent when you tap **Send**. The lesson context goes with it: the song (identifier and title), the path step, hands, mode, bar, speed, input type, display settings, the note-by-note log of the attempt, the operating system, the device model, the app version and the date and time. The install identifier and the account identifier do not go.
+- **What for:** understanding what worked or did not work in the lesson, and fixing it. The recording is transcribed automatically on our own server, without passing through any other company.
+- **Legal basis:** consent (art. 7, I), which you give by recording and sending. You can withdraw it by asking for deletion (section 6).
+- **Where it is kept:** on Cascata's server, in Brazil, for up to 90 days after it is sent.
+- We do not use your voice to identify you or to train artificial intelligence.
+
+### 2.7 Imported music and sheet-music search (in some versions)
+
+These features also depend on Cascata's lesson server and may not exist in the version you downloaded. Importing MIDI and MusicXML files always works, and only on the device.
+
+- **What data:**
+  - **by link:** the link you paste (while you type, to show the title and the cover) and, when you confirm, the link, the title and the chosen excerpt;
+  - **by recording or file:** only the sound (from a video, the sound is separated on the device) and the title, which starts as the file name and which you can change;
+  - **sheet-music search:** the text you type in the search;
+  - the IP address of the connection.
+- **What for:** getting the sound, separating the instruments, writing out the notes and returning the lesson to you alone, or showing free sheet music that matches the search.
+- **Legal basis:** performance of a contract.
+- **Where it is kept and for how long:** on Cascata's server, in Brazil. The heaviest steps (separating the instruments and writing out the notes) may be done by Modal Labs, in the USA, on our behalf. The audio and the separated tracks are deleted as soon as the lesson is ready or processing fails. The lesson files and the record of the request (link or file name, and title) are deleted within 24 hours. Search answers stay only in the server's memory, for up to 1 hour. The finished lesson is kept only on your device.
+- **Straight from the device to other sites:** to show a link's title and cover, the app may query the link's own site (for example, YouTube) and download the cover image. When you open sheet music found in the search, the app downloads the file from the Mutopia Project. These sites receive the device's IP address and what was requested, under their own policies.
+
+### 2.8 Teacher and voice
+
+- **On the device:** the teacher (Gemma 4 model, by Google) and the natural voice (Supertonic 3 model, by Supertone) run on your phone. The conversation and the practice report do not leave the device.
+- **Model downloads:** the files come from Hugging Face (USA), which receives the IP address as with any download. The teacher is only downloaded when you ask. The natural voice may be downloaded on its own, in the background and, by default, only on Wi-Fi, after the teacher first speaks with the system voice. If you delete the voice in Settings, it is not downloaded again.
+- **Teacher through the API, with your own key (Lab):** if you turn on this option under **Settings > Lab**, enter an Anthropic key and do not have the on-device teacher, the practice report (song title, accuracy, errors per bar, timing) and your messages go **straight from the device to Anthropic**, in the USA. The key stays only on the device, in the Keychain or the Android Keystore. We do not receive or keep this conversation; Anthropic handles it under its own rules and the contract you have with it. This option is not for children.
+- **Legal basis:** performance of a contract.
+
+### 2.9 Problem reports and support
+
+- **Problem report:** opens when you shake the device or under **Settings > Help**. It carries the text you write, a screenshot (attached by default; you can remove it), the app version, the device model, the operating system, the language, the screen you were on, the install identifier and the last 20 usage events recorded on the device. The app sends nothing by itself: it opens your e-mail app or the share sheet, you see the content and decide whether to send it.
+- **Requests by e-mail** (support, account deletion, rights): your e-mail address and what you write.
+- **What for:** answering, fixing the problem and showing that we handled the request.
+- **Legal basis:** performance of a contract, legitimate interest and compliance with a legal obligation (art. 7, II).
+- **Where it is kept:** in our mailbox. Problem reports for up to 2 years after they are resolved; support and rights requests for 5 years (the limitation period of Brazil's Consumer Defence Code).
+
+### 2.10 Subscription and purchases
+
+- **What data:** purchases are made in the App Store (Apple) or Google Play (Google). **We do not receive the card number, the billing name or the address.** The app receives from the store, on the device, the plan, whether the subscription is active, the dates and the proof of purchase, which may be checked on the device itself. In the statistics, we record that a subscription happened and for which plan.
+- **What for:** unlocking paid content and knowing how many people subscribe to each plan.
+- **Legal basis:** performance of a contract; legitimate interest, for the statistics.
+- **Where it is kept:** the purchase stays with Apple or Google, under their rules. The status stays on the device. The subscription event stays in PostHog for the statistics period.
+
+### 2.11 Notifications
+
+Practice reminders and the notice that an imported song is ready are scheduled on the device itself. The app does not use a push notification service and does not create a push identifier.
+
+### 2.12 What we do not do
 
 - We do not sell or rent personal data.
-- We do not use data for advertising or share it with ad networks.
-- We do not use the device advertising ID or track you across other companies' apps and websites.
-- We do not make automated decisions with legal effects on you.
-- We do not use your conversations, the content you upload or the lessons created from it to train AI models, and we do not allow the cloud provider that processes imported music to do so.
+- We do not use data for advertising, do not share data with ad networks and have no advertising or marketing attribution SDK.
+- We do not use the device's advertising identifier or track you across other companies' apps and websites.
+- We do not send marketing e-mails.
+- We do not collect precise location.
+- We do not ask for sensitive data (such as health, religion or biometrics). The voice in feedback is not used to identify anyone.
+- We do not make automated decisions that have legal effects on you.
+- We do not use your conversations, recordings, the content you send or the generated lessons to train artificial intelligence models, and we do not allow our processors to do so.
+
+---
+
+## 3. How we collect data
+
+- **From you:** when you create a profile, answer the first questions, write a report, record feedback, import a song or send us an e-mail.
+- **Automatically:** through your use of the app, with the permissions you gave (microphone, camera, Bluetooth, notifications) and through usage statistics.
+- **From other companies:** from Google, when you sign in with your Google account; from Apple or Google, about your subscription; and from the sites the imported links come from (title and cover).
+
+---
+
+## 4. Cookies, SDKs and other technologies
+
+- The app **does not use cookies** or session-recording technologies.
+- The app **has no advertising, marketing attribution or social media SDK.**
+- Other companies' services that the app uses and that receive data:
+  - **sign-in:** Google Sign-In (iPhone), Credential Manager and Google Play services (Android), and Firebase Authentication;
+  - **sync:** Cloud Firestore (Google);
+  - **statistics:** PostHog, called directly through its API, without an SDK;
+  - **purchases:** StoreKit (Apple) and Google Play Billing (Google);
+  - **model downloads:** Hugging Face;
+  - **teacher through the API, if you turn it on:** Anthropic.
+- The app's other libraries (animations, effects, sound) work only on the device and send no data.
+- **Lab:** under **Settings > Lab** you can turn on features that are still being tested. They follow this policy.
+
+---
 
 ## 5. Who we share data with
 
-We use companies that process data **on our behalf and following our instructions** (processors):
+**Processors.** Companies that handle data **on our behalf, following our instructions**, and that cannot use it for their own purposes:
 
-| Company | What it does | Where |
-|---|---|---|
-| PostHog Inc. | Usage analytics | US |
-| Google (Firebase Authentication), only for signed-in users | Sign-in with Google | US |
-| Google (Cloud Firestore), only for signed-in users | Store the progress synced between devices | Brazil (São Paulo) |
-| Apple and Google | App distribution, payments, notifications, Google sign-in | US and other countries |
-| Hugging Face | Hosts the teacher and voice files you download | US |
-| Modal Labs, Inc., only for people who import songs | Cloud computing: receives the audio of the imported song and, on our behalf, separates the instruments and transcribes the notes. It uses the audio only during processing; we keep nothing there | US |
+- **PostHog Inc.** (USA): usage statistics.
+- **Google** (Firebase Authentication, USA; Cloud Firestore, Brazil), only for those who sign in: sign-in and sync.
+- **Modal Labs, Inc.** (USA), only for those who import songs, in versions that have the feature: separating the instruments and writing out the notes. It uses the audio only during processing.
+- **Hugging Face** (USA): hosts the teacher and voice files you download.
 
-We may also share data when required by law or an order from an authority, to defend our rights in legal proceedings, or in case of a sale or reorganisation of the app (with the same protection as this policy).
+**Stores.** Apple and Google distribute the app and handle payments, as independent controllers, under their own policies.
 
-## 6. International transfers
+**At your initiative.** When you share a video or a result (through the share sheet, the gallery or Instagram), send a report through your e-mail app or turn on the teacher through the API with your Anthropic key, the data goes to whoever you chose, and from then on its handling follows that service's rules.
 
-Some of the processors above are outside Brazil, mainly in the US. In those cases we rely on the standard contractual clauses approved by Brazil's ANPD (Resolution CD/ANPD 19/2024) or another mechanism under art. 33 of the LGPD, and, for people in Europe, on the European Commission's standard contractual clauses or the EU-US Data Privacy Framework where the processor participates.
+**By obligation or for defence.** When the law or an order from an authority requires it, to protect our rights or other people's rights in legal proceedings, or to investigate fraud or illegal use of the app.
 
-## 7. Children and teenagers
+**In a sale or reorganisation** of the app, the data may pass to the new owner, who must keep the protection of this policy.
 
-Cascata may be used by children and teenagers, **always with the permission and supervision of a parent or guardian**.
+We do not sell personal data or share it for advertising.
 
-- We process children's and teenagers' data **always in their best interest** (art. 14 of the LGPD) and collect only what the app needs to work.
-- For **children (under 12 in Brazil)**, use must be authorised by at least one parent or guardian. In the US, this applies to children under 13 (COPPA). In Europe, up to the age set by each country (13 to 16).
-- A parent or guardian can turn off usage statistics under **Settings > Privacy**. The on-device teacher and voice do not send the conversation off the phone.
-- We do not advertise to or commercially profile children and teenagers.
-- A parent or guardian can at any time see, correct or delete the child's data and withdraw consent by writing to contato@cascata.pro.
-- If we learn that we processed a child's data without the required permission, we will delete it.
+---
 
-## 8. Your rights
+## 6. Your rights and how to exercise them
 
-You (or the parent or guardian, for minors) may, at any time and free of charge:
+You (or the parent or guardian, for children and teenagers) may, at any time and free of charge:
 
-- confirm whether we process your data and access it;
-- correct incomplete or inaccurate data;
-- ask for anonymisation, blocking or deletion of unnecessary data or data processed unlawfully;
-- ask for data portability;
-- ask for deletion of data processed on the basis of consent;
+- confirm whether we handle your data and access it;
+- correct incomplete, wrong or outdated data;
+- ask for anonymisation, blocking or deletion of data that is unnecessary, excessive or handled against the law;
+- receive your data in a structured format to take to another service (portability);
+- ask for deletion of data handled on the basis of consent, and withdraw consent;
 - know who we share your data with;
-- be told about the possibility of not consenting and its consequences;
-- withdraw consent;
-- object to processing based on legitimate interest;
-- ask for review of automated decisions;
+- know what happens if you do not give consent;
+- object to handling based on legitimate interest;
+- ask for a review of decisions made only by automated means;
 - complain to Brazil's **National Data Protection Authority (ANPD)**, at gov.br/anpd, or to the data protection authority of your country.
 
-If you live in Europe, you also have the GDPR rights (including restriction of processing). If you live in California, you have the right to know, delete, correct and not be discriminated against for exercising your rights. **We do not sell or "share" personal data for cross-context behavioural advertising** as defined in the CCPA/CPRA.
+### In the app
 
-### How to exercise them
+- **Turn off statistics:** Settings > Privacy > Send usage data.
+- **Correct or delete a profile:** Settings > Family. Deleting a profile deletes its path, progress and settings on the device and, if you signed in, also in the synced copy.
+- **Delete the downloaded teacher and voice:** Settings > On-device teacher.
+- **Withdraw permissions** (microphone, camera, Bluetooth, notifications): in the device settings.
+- **Delete the account:** Settings > Account > Delete account. The account and the synced progress are erased at once, and the app opens a pre-filled e-mail to us with the install identifier, so we can also delete the statistics.
+- **Delete the data on the device:** clear the app's data in the system settings or uninstall the app.
 
-- **Turn off analytics:** Settings > Privacy > Send usage data.
-- **Delete the downloaded teacher and voice:** Settings > On-device teacher > Delete.
-- **Delete data on the device:** delete the app or clear its data in the system settings.
-- **Delete your account and off-device data:** Settings > Delete account. When signed in, the account and the synced progress are erased at once, and the app also opens a pre-filled e-mail to us.
-- **Delete an imported song:** delete the song in the app. The copy on the server disappears on its own within 24 hours; if you want it sooner, write to the e-mail below.
-- **Any other request:** write to contato@cascata.pro.
+### By e-mail
 
-We may ask for information to confirm the request is yours. We reply within **15 days**, or within any shorter period required by the law of your country.
+For any other request, including without an account, write to **contato@cascata.pro**. Because statistics and spoken feedback carry no name or e-mail, to find them we need the install identifier (which the app puts in the deletion e-mail and in the problem report) or, for spoken feedback, the approximate date and the song.
 
-**About deletion:** because usage events are currently linked to an install code rather than a name, we need that code to delete them. The app includes it automatically in the deletion e-mail and in problem reports.
+We may ask for information to confirm that the request is yours or from someone you represent. If you act through a representative, they must show they are authorised. We answer within **15 days**, or within the shorter period required by the law of your country. If we cannot fulfil a request, we will tell you why and how to challenge it.
+
+---
+
+## 7. How long we keep data
+
+- **Data on the device:** until you delete the profile, clear the app's data or uninstall it.
+- **Account and synced progress:** while the account exists; erased at once when you delete the account in the app, or within 15 days of a request by e-mail.
+- **Usage statistics:** 12 months.
+- **Spoken feedback:** up to 90 days after it is sent.
+- **Imported music:** audio deleted at the end of processing; lesson files and request record within 24 hours; searches, up to 1 hour in memory.
+- **Problem reports:** up to 2 years after they are resolved.
+- **Support and rights requests:** 5 years.
+- **Purchase data:** with Apple or Google, for their periods and under tax law.
+
+After these periods we delete or anonymise the data, unless the law requires us to keep it longer or it is needed to defend rights in legal proceedings. We may delete data before these periods when it is no longer needed.
+
+---
+
+## 8. International transfers
+
+Some processors are outside Brazil, mainly in the USA (PostHog, Google Firebase Authentication, Modal Labs, Hugging Face). In those cases, the transfer follows the standard contractual clauses approved by the ANPD (Resolution CD/ANPD No. 19/2024) or another mechanism in art. 33 of the LGPD. For people in the European Economic Area, the UK or Switzerland, we use the European Commission's standard contractual clauses (with the UK and Swiss addenda) or the EU-US Data Privacy Framework, when the processor takes part in it.
+
+The synced document and the lesson server are in Brazil.
+
+---
 
 ## 9. Security
 
-- Communication between the app and the services uses encrypted connections (HTTPS/TLS).
+- The app's communications with the services in section 5 use encrypted connections (HTTPS/TLS).
+- The account access tokens, and the Anthropic key if you use one, are kept in the iPhone Keychain or encrypted by the Android Keystore.
+- On Android, the app's data is excluded from Google backup. On iPhone, iCloud may include the app's data in the backups you turned on; those backups are made by Apple, under your account.
 - The teacher and voice files are checked against a digital fingerprint (SHA-256) after download.
 - We give access to data only to those who need it and require the same of our processors.
-- No system is completely secure. If an incident may cause you relevant risk or harm, we will notify you and the ANPD as required by law.
+- If you think someone got into your account, sign out in the app, change your Google account password and tell us at contato@cascata.pro.
+- No system is completely secure. If there is an incident that may bring you relevant risk or harm, we will notify you and the ANPD, as the law requires.
 
-## 10. Retention
+---
 
-According to the periods in the table in section 4.2. After that, we delete or anonymise the data, unless the law requires us to keep it longer (for example, tax obligations or defence in legal proceedings).
+## 10. Children and teenagers
 
-## 11. Cookies
+Cascata may be used by children and teenagers, **always through a responsible adult**.
 
-The app does not use cookies.
+- **The adult sets it up.** Whoever installs the app, creates the profiles, signs in, subscribes and accepts the Terms is an adult: the father, mother or legal guardian. The child uses the app in a profile the adult creates under **Settings > Family**.
+- **What the child provides.** The profile asks only for a name or nickname (it can be made up, and we recommend not using the full name), age and an avatar, plus the first answers. During use, the app keeps the child's progress on the device.
+- **What leaves the device.** If the adult signs in, the child's profile and progress go into sync (section 2.3). If statistics are on, the device's usage events go to PostHog without the child's name or age. The adult can turn statistics off under **Settings > Privacy**.
+- **Consent.** By creating a child's profile, the adult states that they are the parent or guardian and authorises the use described in this policy. We always handle children's and teenagers' data in their best interest (art. 14 of the LGPD and Brazil's Child and Adolescent Statute) and only what the app needs to work.
+- **Features for the adult.** Spoken feedback (section 2.6) should be recorded by the adult or with the adult nearby. The teacher through the API with your own key, the Lab and purchases are for adults.
+- **No advertising.** We do not advertise to or build commercial profiles of children and teenagers.
+- **The parent's rights.** The parent or guardian can, at any time, view, correct or delete the child's profile under Settings > Family, turn statistics off and ask for deletion of any of the child's data, or withdraw consent, at contato@cascata.pro.
+- **Other countries.** In the USA, these rules apply to children under 13 (COPPA). In Europe, up to the age set by each country (13 to 16).
+- If we learn that we handled a child's data without a parent's or guardian's authorisation, we will delete that data.
 
-## 12. Changes to this policy
+---
 
-We may update this policy. For material changes we will notify you in the app before they take effect and, where the law requires, ask for your consent again.
+## 11. For US residents
 
-## 13. Contact
+This section addresses US state privacy laws, such as those of California (CCPA/CPRA), Colorado, Connecticut, Virginia and Utah.
 
-- **Controller and data protection contact:** Wayner Maia, contato@cascata.pro
+- **Categories of data collected in the last 12 months:** identifiers (install identifier, account identifier, e-mail, IP address); account personal data (name); commercial information (plan subscribed); app activity (usage events); audio (spoken feedback and imported songs, in versions that have these features); and profile data (name or nickname, age, first answers). Sources, purposes and recipients are in sections 2, 3 and 5.
+- **Sale and "sharing":** we do not sell personal data and do not share it for cross-context behavioural advertising. So there is no "do not sell" option to offer. We also do not use sensitive data to infer characteristics about you.
+- **Your rights:** to know and access, correct, delete, receive a portable copy and not be discriminated against for exercising these rights. You can make a request at contato@cascata.pro, directly or through an authorised agent.
+- **Verification and appeal:** we verify the identity of whoever makes the request. If we refuse it, you can appeal by writing to the same e-mail with the subject "Appeal"; we answer within the period set by your state's law. If the appeal is denied, you can complain to your state's Attorney General.
+
+---
+
+## 12. For residents of the European Economic Area, the UK or Switzerland
+
+- **Legal bases (GDPR art. 6):** performance of a contract, for the profile, progress, account, sync, import and purchases; legitimate interest, for usage statistics and problem reports (our interest is keeping the app working and improving it, and you can object by turning statistics off); consent, for spoken feedback; legal obligation, for keeping records the law requires.
+- **Rights:** besides those in section 6, you have the right to restriction of processing and to complain to the data protection authority of the country where you live or work.
+
+---
+
+## 13. Changes to this policy
+
+We may update this policy when the app or the law changes. The version in force is always in the app (Settings > About) and on Cascata's public page, with the date of the last update. If the change is relevant, we will tell you in the app before it takes effect and, when the law requires, ask for your consent again. A feature that sends new data off the device only enters the app after it is described here.
+
+---
+
+## 14. Contact
+
+- **Controller and data protection officer (DPO):** Wayner Maia, **contato@cascata.pro**
+- **Address:** WAYNER MAIA VITORINO, Rua Vinte e Um de Abril, 187, Pacaembu, Uberlândia/MG, CEP 38401-574, Brazil
